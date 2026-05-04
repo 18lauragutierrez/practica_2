@@ -118,7 +118,7 @@ app.get('/vista-doctores', async (req, res) => {
             <tr><th>ID</th><th>Nombre</th><th>Especialidad</th><th>Acciones</th></tr>
             ${rows || '<tr><td colspan="4">No hay registros</td></tr>'}
         </table>
-        <br><a href="/" style="color:#666;">⬅ Volver al Inicio</a>
+        <br><a href="/" style="color:#666;"> <- Volver al Inicio</a>
     </div>`);
 });
 
@@ -174,7 +174,7 @@ app.get('/vista-pacientes', async (req, res) => {
             <tr><th>ID</th><th>Nombre</th><th>Edad</th><th>Médico</th><th>Foto</th><th>Acciones</th></tr>
             ${rows || '<tr><td colspan="6" style="text-align:center;">No hay registros</td></tr>'}
         </table>
-        <br><a href="/" style="color:#666;">⬅ Volver al Inicio</a>
+        <br><a href="/" style="color:#666;"> <- Volver al Inicio</a>
     </div>`);
 });
 
